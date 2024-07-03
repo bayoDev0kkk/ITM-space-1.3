@@ -13,3 +13,13 @@ function toggleReadMore() {
         moreBtn.style.transform= 'rotate(0)'
     }
 }
+
+    let openModal = document.querySelector('.nav_btn_modal');
+    let closeModal = document.querySelector('.nav-btn-modal_close');
+    let modal = document.querySelector('.nav-btn-modal__elements');
+    openModal.addEventListener('click', () => {
+        modal.classList.add('active')
+    })
+    closeModal.addEventListener('click',() => {
+        modal.classList.remove('active')
+    })
