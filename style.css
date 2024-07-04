@@ -78,6 +78,7 @@ p{
 .nav-modal__footer p {
     margin: 10px 0
 }
+ 
 
 .nav-btn-modal_close{
     padding:0;
@@ -152,9 +153,17 @@ p{
     transition: 0.2s ease-in;
     color:#7E7E82;
 }
-
-.nav-modal__icons img:nth-child(2){
-    padding:0 12px;
+/* .nav-modal__icons{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+} */
+.nav-modal__icons button:nth-child(2){
+    margin:0 12px;
+}
+.nav-modal__icons button:nth-child(1){
+    margin:0 6px 0 0;
+    padding:0;
 }
 
 .nav-modal__phone{
@@ -260,6 +269,7 @@ width: 290px;
         height:74vh;
     }
 }
+
 
 @media (min-height:750px){
     .nav-modal__main{
